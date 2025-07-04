@@ -1,0 +1,161 @@
+
+@font-face {
+	font-family: 'justanotherhand-regular';
+	src: 
+	url('./just-another-hand/justanotherhand-regular.ttf') ; 
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+#maloma {
+  background-color: #F6F4E8;
+  background-size: contain;
+  padding-bottom: 80px ;
+}
+
+.titre {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+ #titre {
+  color: #8E160E ;
+  font-family: "Just Another Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 250px;
+  text-align: center;
+}
+
+.section-wrapper {
+    background-color: #F6F4E8 ;
+    position: relative ;
+    padding-top: 200px ;
+    margin: 0 ;     /* centre horizontalement */
+    padding: 0;         /* ou garde juste padding-top si besoin pour le SVG */
+    max-width: 100%;  
+}
+
+
+.section-container { 
+  display : flex ; 
+  align-items: flex-end;
+  gap:50px;
+  position: relative;
+  padding-top: 100px;
+  padding-right: 50px ;
+  padding-left: 50px;
+}
+
+.image-col, .texte-col {
+  flex : 1; 
+}
+ 
+
+.photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 20px ;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px ;
+  border-bottom-right-radius: 20px ; 
+  z-index : 2; 
+
+}
+
+.dessin {
+  position: absolute;
+  top : -10% ;
+  left: 50%; 
+  transform: translateX(-60%);
+  width : 1150px ; 
+  pointer-events: none;
+  height: 725px;
+  z-index: 1;
+}
+
+.texte-col {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px ; 
+  align-self: flex-end;
+}
+
+h1 {
+  color: #8E160E ;
+  font-family: "Just Another Hand", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 65px;
+}
+
+
+h3 {
+  color: #8E160E ;
+  font-family: "Just Another Hand", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 100px;
+  text-align: center;
+
+}
+
+p {
+  color: #8E160E ;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 55px;
+  text-align: justify;
+}
+
+#btn {
+  background-color: #F6F4E8;
+}
+
+.btn {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+
+.btn a:hover {
+  background-color: #F6F4E8;
+  color: #8E160E;
+}
+
+a {
+text-decoration: none;
+font-family: "Just Another Hand", cursive;
+font-weight: 500;
+font-style: normal;
+font-size: 50px;
+transition: 1s;
+
+}
+
+.btn a{
+  color: #FFFFFF;
+  background-color: #8E160E  ;
+  border : 2px solid #8E160E ;
+  border-radius : 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 100px;
+  padding-right: 100px ;
+  transition: ease 1s;
+
+}
+
+
+
+
